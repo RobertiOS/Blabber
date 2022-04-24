@@ -16,3 +16,4 @@ DerivedData
 .idea/
 *.xcscmblueprint
 .swiftpm
+/Blabber.xcodeproj/project.xcworkspace/xcuserdata/Robert.xcuserdatad/UserInterfaceState.xcuserstate
