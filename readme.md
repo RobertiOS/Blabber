@@ -1,4 +1,5 @@
-# Concurrency
+# Some cool stuff about Concurrency 😎
+### I took this notes from Ray Wenderlich's modern concurrency book 
 
 In a synchronous context, code runs in one execution thread on a single CPU core. You can imagine synchronous functions as cars on a single-lane road, each driving behind the one in front of it. Even if one vehicle has a higher priority, like an ambulance on duty, it cannot “jump over” the rest of the traffic and drive faster.
 
@@ -6,7 +7,7 @@ Asynchronous execution allows different pieces of the program to run in any orde
 
 In an asynchronous context, it’s hard to tell the exact order in which functions run, especially when several asynchronous functions need to use the same thread. Just like driving on a road where you have stoplights and places where traffic needs to yield, functions must sometimes wait until it’s their turn to continue, or even stop until they get a green light to proceed.
 
-## Introducing the modern Swift concurrency model
+## The modern Swift concurrency model
 The new concurrency model is tightly integrated with the language syntax, the Swift runtime and Xcode. It abstracts away the notion of threads for the developer. Its key new features include:
 A cooperative thread pool.
 async/await syntax.
@@ -45,7 +46,7 @@ for try await item in asyncSequence {
 }
 ```
 
-
+cd
 
 
 ### Manualy cancelling tasks
@@ -56,18 +57,5 @@ downloadTask = Task { // async execution }
 //code for cancelling the task, it could be executed on .onDisappear(...) for example
 
 downloadTask?.cancel()
-
 ```
 
-
-
-
-
- ## iPhone
-  - barcode EB8735 - asset id 4381269
-  - barcode EB8684 - asset id 4602663
-
-  ## iPad
-
-  - barcode EB8735 - asset id 4381269
-  - barcode EB8684 - asset id 4602663
